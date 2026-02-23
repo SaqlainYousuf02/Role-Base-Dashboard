@@ -1,6 +1,6 @@
 # Role-Based Interactive Dashboard
 
-## Description  Livw Link https://unrivaled-horse-ace2e9.netlify.app/
+## Description  Live Link https://unrivaled-horse-ace2e9.netlify.app/
 This project is an **interactive dashboard** designed for **Students, Instructors, and Administrators**.  
 It displays **role-based statistics** with **real-time updates**, responsive design, and dynamic cards.  
 Built for learning and demonstrating **dynamic UI, animations, and role-specific data visualization**.
