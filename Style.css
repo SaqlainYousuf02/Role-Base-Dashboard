@@ -1,0 +1,38 @@
+ body {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        .stat-card {
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .stat-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+        }
+        
+        .stat-number {
+            transition: all 0.5s ease-out;
+        }
+        
+        @keyframes pulse-soft {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
+        }
+        
+        .refreshing {
+            animation: spin 1s linear infinite;
+        }
+        
+        @keyframes spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+        
+        .icon-wrapper {
+            transition: all 0.3s ease;
+        }
+        
+        .stat-card:hover .icon-wrapper {
+            transform: scale(1.1) rotate(5deg);
+        }
